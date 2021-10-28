@@ -1,4 +1,4 @@
 function myFunction(){
     document.getElementById("mytext").value="";
-    document.getElementById("message").innerText="Thank you";
+    document.getElementById("message").innerText="Thank you!";
 }
