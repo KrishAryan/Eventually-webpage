@@ -2,30 +2,34 @@
     padding: 0%;
     margin: 0px;
 }
+@font-face {
+    font-family: 'MyFont';
+    src: url(fonts/fonts.googleapis.com.KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+}
 body {
 
 }
 header{
-    margin:0%;
+
+    margin-top: 35vh;
     padding-left: 50px;
     font-family:Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font: height 26.4px;
-    color:rgba(158, 156, 156, 0.76) ;
-    
-    
+    color:rgba(158, 156, 156, 0.76) ;  
 }
 html{
     
-    background: linear-gradient(90deg, rgb(0,0,0,0.85), rgba(0, 0, 0,0.7)), url('./images/bg01.jpg')no-repeat center center fixed;
+ 
+    background: linear-gradient(90deg, rgb(0,0,0,0.85), rgba(0, 0, 0,0.7)), url('./images/bg01.jpg')no-repeat center center fixed; 
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
+    background-size: cover; 
+    display:block;
    
-    
 }
 
 h1{
@@ -35,28 +39,58 @@ h1{
     font-style: normal;
     font: height 65px;
     color:#ffffff;
+    margin-bottom: 30px;
    }
    input{
       background: transparent;
        border-radius: 5px;
-       color:rgba(158, 156, 156, 0.76) ;
-       height: 65px;
+       color:rgb(255, 255, 255) ;
+       height: 40px;
        width: 250px;
        text-size-adjust: focus;
+       margin-right: 10px;
+       border: 1px solid #ffffff5d;
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
+       padding-left: 10px; 
    }
    button{
        background-color:#1cb495 ;
        color:#ffffff;
         border-radius: 5px;
+        height: 40px;
+        width: 80px;
+        font-weight: bold;
+        font-family: 'MyFont' ;
+        border: 1px transparent
    }
-   
    p{
        margin: 5px;
+       font-weight: 500;
     }
    
    #message{
        color:#1cb495
    }
    #contents{
-       margin-bottom: 15px;
+       margin-bottom: 30px;
    }
+   #icon{
+       color:rgba(158, 156, 156, 0.46) ;
+       padding-left: 15px;
+       font-size: 3.2vh;
+       
+   }
+   footer{
+   position:absolute;
+   bottom:5vh;
+   left:25px;
+   
+   
+}
+ #footer_p{
+     color:rgba(158, 156, 156, 0.46);
+     padding-left: 4.1vh;
+     font-family: MyFont;
+     
+ }
